@@ -2,7 +2,7 @@ created_by: skills network interns
 domain: IBMCloud Code Engine
 
 seed_examples:
-  - question: True or False: IBM Cloud Code Engine abstracts the operational burden of building, deploying, and managing workloads in Kubernetes.
+  - question: True or False, IBM Cloud Code Engine abstracts the operational burden of building, deploying, and managing workloads in Kubernetes.
     answer: >
       True. IBM Cloud Code Engine abstracts the operational burden of building, deploying, and managing workloads in Kubernetes so that developers can focus on their source code.
 
@@ -22,11 +22,11 @@ seed_examples:
       C. Bare Metal Servers
       D. IBM Watson
 
-  - question: True or False: A project in IBM Cloud Code Engine is based on a Kubernetes namespace and is used to manage resources and provide access to its entities.
+  - question: True or False, A project in IBM Cloud Code Engine is based on a Kubernetes namespace and is used to manage resources and provide access to its entities.
     answer: >
       True. A project in IBM Cloud Code Engine is based on a Kubernetes namespace and is used to manage resources and provide access to its entities.
 
-  - question: True or False: Accessing a private container registry with IBM Cloud Code Engine requires credentials.
+  - question: True or False, Accessing a private container registry with IBM Cloud Code Engine requires credentials.
     answer: >
       True. Accessing a private container registry requires credentials, unlike a public registry which does not.
 
@@ -46,11 +46,11 @@ seed_examples:
       C. Private Docker Hub
       D. Google Container Registry
 
-  - question: True or False: IBM Cloud Code Engine can automatically create and manage registry secrets for IBM Cloud Container Registry namespaces in your account.
+  - question: True or False, IBM Cloud Code Engine can automatically create and manage registry secrets for IBM Cloud Container Registry namespaces in your account.
     answer: >
       True. IBM Cloud Code Engine can automatically create and manage registry secrets for IBM Cloud Container Registry namespaces in your account.
 
-  - question: True or False: To retrieve your Kubernetes configuration with the IBM Cloud Code Engine API, you need an IAM access token.
+  - question: True or False, To retrieve your Kubernetes configuration with the IBM Cloud Code Engine API, you need an IAM access token.
     answer: >
       True. You need an IAM access token to retrieve your Kubernetes configuration with the IBM Cloud Code Engine API.
 
@@ -70,11 +70,11 @@ seed_examples:
       C. ibmcloud config
       D. ibmcloud setup
 
-  - question: True or False: You cannot delete a job run in IBM Cloud Code Engine without also deleting any associated pods.
+  - question: True or False, You cannot delete a job run in IBM Cloud Code Engine without also deleting any associated pods.
     answer: >
       True. You cannot delete a job run without also deleting any associated pods in IBM Cloud Code Engine.
 
-  - question: True or False: IBM Cloud Code Engine applications can scale to zero when not in use.
+  - question: True or False, IBM Cloud Code Engine applications can scale to zero when not in use.
     answer: >
       True. IBM Cloud Code Engine applications can scale to zero when not in use.
 
@@ -94,11 +94,11 @@ seed_examples:
       C. TARGET
       D. NAME
 
-  - question: True or False: You need a Pay-as-you-Go account to use IBM Cloud Code Engine.
+  - question: True or False, You need a Pay-as-you-Go account to use IBM Cloud Code Engine.
     answer: >
       True. All IBM Cloud Code Engine users are required to have a Pay-as-you-Go account.
 
-  - question: True or False: You are billed for the memory and vCPU that your IBM Cloud Code Engine workloads consume, as well as any incoming HTTP calls.
+  - question: True or False, You are billed for the memory and vCPU that your IBM Cloud Code Engine workloads consume, as well as any incoming HTTP calls.
     answer: >
       True. You are billed for the memory and vCPU that your workloads consume, as well as any incoming HTTP calls.
 
@@ -118,11 +118,11 @@ seed_examples:
       C. You are charged a minimal fee for maintaining the application.
       D. You are charged only for storage.
 
-  - question: True or False: The time it takes to pull your image or to build it from source code is included in the billable time for IBM Cloud Code Engine.
+  - question: True or False, The time it takes to pull your image or to build it from source code is included in the billable time for IBM Cloud Code Engine.
     answer: >
       True. The time it takes to pull your image or to build it from source code is included in the billable time.
 
-  - question: True or False: In IBM Cloud Code Engine, configmaps are used to store sensitive data information.
+  - question: True or False, In IBM Cloud Code Engine, configmaps are used to store sensitive data information.
     answer: >
       False. Configmaps are used to store non-sensitive data information.
 
@@ -142,11 +142,11 @@ seed_examples:
       C. You will be charged for the deletion.
       D. The project will be deleted.
 
-  - question: True or False: You can reference a configmap as an environment variable in an IBM Cloud Code Engine application, job, or function.
+  - question: True or False, You can reference a configmap as an environment variable in an IBM Cloud Code Engine application, job, or function.
     answer: >
       True. You can reference a configmap as an environment variable in an IBM Cloud Code Engine application, job, or function.
 
-  - question: True or False: IBM Cloud Code Engine can deploy applications, run jobs, and build source code from a single dashboard.
+  - question: True or False, IBM Cloud Code Engine can deploy applications, run jobs, and build source code from a single dashboard.
     answer: >
       True. IBM Cloud Code Engine can deploy applications, run jobs, and build source code from a single dashboard.
 
@@ -166,7 +166,7 @@ seed_examples:
       C. In the IBM Cloud CLI documentation
       D. In the IBM Cloud Code Engine console
 
-  - question: True or False: You need a Docker Hub account to use IBM Cloud Code Engine.
+  - question: True or False, You need a Docker Hub account to use IBM Cloud Code Engine.
     answer: >
       False. IBM Cloud Code Engine does not require a Docker Hub account.
 
@@ -178,7 +178,7 @@ seed_examples:
       C. You are not required to install software like Docker Desktop locally
       D. It provides more detailed logs
 
-  - question: True or False: IBM Cloud Code Engine apps support WebSockets.
+  - question: True or False, IBM Cloud Code Engine apps support WebSockets.
     answer: >
       True. IBM Cloud Code Engine apps support WebSockets.
 
