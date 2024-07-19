@@ -2,11 +2,12 @@ created_by: skills network interns
 domain: IBMCloud Code Engine
 
 seed_examples:
-  - question: True or False, IBM Cloud Code Engine abstracts the operational burden of building, deploying, and managing workloads in Kubernetes.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      True. IBM Cloud Code Engine abstracts the operational burden of building, deploying, and managing workloads in Kubernetes so that developers can focus on their source code.
+      True. IBM Cloud Code Engine abstracts the operational burden of building, deploying, and managing workloads in Kubernetes.
 
-  - question: Which of the following is NOT a benefit of IBM Cloud Code Engine?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       C. Which of the following is NOT a benefit of IBM Cloud Code Engine?
       A. Autoscales - even to zero
@@ -14,7 +15,8 @@ seed_examples:
       C. Manual scaling required
       D. DDoS protection
 
-  - question: What does IBM Cloud Code Engine use to create a container image from your source code?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       B. What does IBM Cloud Code Engine use to create a container image from your source code?
       A. Virtual Machines
@@ -22,15 +24,16 @@ seed_examples:
       C. Bare Metal Servers
       D. IBM Watson
 
-  - question: True or False, A project in IBM Cloud Code Engine is based on a Kubernetes namespace and is used to manage resources and provide access to its entities.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
       True. A project in IBM Cloud Code Engine is based on a Kubernetes namespace and is used to manage resources and provide access to its entities.
 
-  - question: True or False, Accessing a private container registry with IBM Cloud Code Engine requires credentials.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      True. Accessing a private container registry requires credentials, unlike a public registry which does not.
+      True. Accessing a private container registry with IBM Cloud Code Engine requires credentials.
 
-  - question: What type of secret does IBM Cloud Code Engine use to store credentials for accessing a container registry?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       A. What type of secret does IBM Cloud Code Engine use to store credentials for accessing a container registry?
       A. imagePullSecret
@@ -38,7 +41,8 @@ seed_examples:
       C. service binding
       D. subscription
 
-  - question: Which of the following is NOT a type of image registry mentioned in the document?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       D. Which of the following is NOT a type of image registry mentioned in the document?
       A. IBM Cloud Container Registry
@@ -46,15 +50,16 @@ seed_examples:
       C. Private Docker Hub
       D. Google Container Registry
 
-  - question: True or False, IBM Cloud Code Engine can automatically create and manage registry secrets for IBM Cloud Container Registry namespaces in your account.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
       True. IBM Cloud Code Engine can automatically create and manage registry secrets for IBM Cloud Container Registry namespaces in your account.
 
-  - question: True or False, To retrieve your Kubernetes configuration with the IBM Cloud Code Engine API, you need an IAM access token.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      True. You need an IAM access token to retrieve your Kubernetes configuration with the IBM Cloud Code Engine API.
+      True. To retrieve your Kubernetes configuration with the IBM Cloud Code Engine API, you need an IAM access token.
 
-  - question: Which of the following is NOT a step in retrieving your Kubernetes configuration with the IBM Cloud Code Engine API?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       D. Which of the following is NOT a step in retrieving your Kubernetes configuration with the IBM Cloud Code Engine API?
       A. Authenticate with IBM IAM
@@ -62,7 +67,8 @@ seed_examples:
       C. Use the IBM Cloud Code Engine API
       D. Configure a Virtual Private Cloud (VPC)
 
-  - question: What command is used to log in and target a region, account, and resource group in IBM Cloud?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       B. What command is used to log in and target a region, account, and resource group in IBM Cloud?
       A. ibmcloud target
@@ -70,15 +76,16 @@ seed_examples:
       C. ibmcloud config
       D. ibmcloud setup
 
-  - question: True or False, You cannot delete a job run in IBM Cloud Code Engine without also deleting any associated pods.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      True. You cannot delete a job run without also deleting any associated pods in IBM Cloud Code Engine.
+      True. You cannot delete a job run in IBM Cloud Code Engine without also deleting any associated pods.
 
-  - question: True or False, IBM Cloud Code Engine applications can scale to zero when not in use.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
       True. IBM Cloud Code Engine applications can scale to zero when not in use.
 
-  - question: Which command is used to create an application in IBM Cloud Code Engine?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       A. Which command is used to create an application in IBM Cloud Code Engine?
       A. ibmcloud ce application create
@@ -86,7 +93,8 @@ seed_examples:
       C. ibmcloud ce app start
       D. ibmcloud ce app init
 
-  - question: What environment variable does the sample image `icr.io/codeengine/hello` use to print a custom message?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       C. What environment variable does the sample image `icr.io/codeengine/hello` use to print a custom message?
       A. MESSAGE
@@ -94,15 +102,16 @@ seed_examples:
       C. TARGET
       D. NAME
 
-  - question: True or False, You need a Pay-as-you-Go account to use IBM Cloud Code Engine.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      True. All IBM Cloud Code Engine users are required to have a Pay-as-you-Go account.
+      True. You need a Pay-as-you-Go account to use IBM Cloud Code Engine.
 
-  - question: True or False, You are billed for the memory and vCPU that your IBM Cloud Code Engine workloads consume, as well as any incoming HTTP calls.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      True. You are billed for the memory and vCPU that your workloads consume, as well as any incoming HTTP calls.
+      True. You are billed for the memory and vCPU that your IBM Cloud Code Engine workloads consume, as well as any incoming HTTP calls.
 
-  - question: Which of the following entities does NOT incur charges in IBM Cloud Code Engine?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       D. Which of the following entities does NOT incur charges in IBM Cloud Code Engine?
       A. Applications
@@ -110,7 +119,8 @@ seed_examples:
       C. Functions
       D. Projects
 
-  - question: What happens to the billing when your IBM Cloud Code Engine application scales to zero?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       B. What happens to the billing when your IBM Cloud Code Engine application scales to zero?
       A. You are still charged for the reserved resources.
@@ -118,15 +128,16 @@ seed_examples:
       C. You are charged a minimal fee for maintaining the application.
       D. You are charged only for storage.
 
-  - question: True or False, The time it takes to pull your image or to build it from source code is included in the billable time for IBM Cloud Code Engine.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      True. The time it takes to pull your image or to build it from source code is included in the billable time.
+      True. The time it takes to pull your image or to build it from source code is included in the billable time for IBM Cloud Code Engine.
 
-  - question: True or False, In IBM Cloud Code Engine, configmaps are used to store sensitive data information.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      False. Configmaps are used to store non-sensitive data information.
+      False. In IBM Cloud Code Engine, configmaps are used to store sensitive data information.
 
-  - question: Which of the following is a correct way to create a configmap with the IBM Cloud Code Engine CLI?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       A. Which of the following is a correct way to create a configmap with the IBM Cloud Code Engine CLI?
       A. ibmcloud ce configmap create --name myconfigmap --from-literal key1=value1
@@ -134,7 +145,8 @@ seed_examples:
       C. ibmcloud ce configmap create --name myconfigmap --from-env key1=value1
       D. ibmcloud ce configmap create --name myconfigmap --from-config key1=value1
 
-  - question: What happens if you delete the automatically created `istio-ca-root` and `kube-root-ca` configmaps in IBM Cloud Code Engine?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       B. What happens if you delete the automatically created `istio-ca-root` and `kube-root-ca` configmaps in IBM Cloud Code Engine?
       A. The system will fail to operate.
@@ -142,15 +154,16 @@ seed_examples:
       C. You will be charged for the deletion.
       D. The project will be deleted.
 
-  - question: True or False, You can reference a configmap as an environment variable in an IBM Cloud Code Engine application, job, or function.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
       True. You can reference a configmap as an environment variable in an IBM Cloud Code Engine application, job, or function.
 
-  - question: True or False, IBM Cloud Code Engine can deploy applications, run jobs, and build source code from a single dashboard.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
       True. IBM Cloud Code Engine can deploy applications, run jobs, and build source code from a single dashboard.
 
-  - question: What is a project in IBM Cloud Code Engine?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       B. What is a project in IBM Cloud Code Engine?
       A. A virtual machine
@@ -158,7 +171,8 @@ seed_examples:
       C. A type of container
       D. A storage service
 
-  - question: Where can you find code samples for IBM Cloud Code Engine?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       A. Where can you find code samples for IBM Cloud Code Engine?
       A. On the IBM Cloud Code Engine code samples repository on GitHub
@@ -166,11 +180,12 @@ seed_examples:
       C. In the IBM Cloud CLI documentation
       D. In the IBM Cloud Code Engine console
 
-  - question: True or False, You need a Docker Hub account to use IBM Cloud Code Engine.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      False. IBM Cloud Code Engine does not require a Docker Hub account.
+      False. You need a Docker Hub account to use IBM Cloud Code Engine.
 
-  - question: What is one advantage of running a build in IBM Cloud Code Engine instead of on your local system?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       C. What is one advantage of running a build in IBM Cloud Code Engine instead of on your local system?
       A. It is always faster
@@ -178,11 +193,12 @@ seed_examples:
       C. You are not required to install software like Docker Desktop locally
       D. It provides more detailed logs
 
-  - question: True or False, IBM Cloud Code Engine apps support WebSockets.
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
       True. IBM Cloud Code Engine apps support WebSockets.
 
-  - question: How can you increase your IBM Cloud Code Engine limits?
+  - question: |
+      Generate a multiple choice question and answer pair about IBMCloud Code Engine
     answer: |
       B. How can you increase your IBM Cloud Code Engine limits?
       A. By upgrading your IBM Cloud account
@@ -190,9 +206,9 @@ seed_examples:
       C. By creating a new project
       D. By using the IBM Cloud CLI
 
-  - question: Does IBM Cloud Code Engine provide an OpenAPI specification for the deployed function?
+  - question: Generate a true or false question and answer pair about IBMCloud Code Engine.
     answer: >
-      No. IBM Cloud Code Engine does not generate or provide an OpenAPI specification for the functions you deploy.
+      False. IBM Cloud Code Engine provides an OpenAPI specification for the deployed function.
 
 task_description: 'Some knowledge about IBMCloud Code Engine'
 document:
